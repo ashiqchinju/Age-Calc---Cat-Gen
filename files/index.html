@@ -1,0 +1,40 @@
+
+<br><html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link  rel="Stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="Stylesheet" href="style.css">
+    <title>Javascript on Steroids</title>
+</head>
+<body>
+    <div class="container-1">
+        <h2>Challenge 1: Your Age in Days</h2>
+        <div class="flex-box-container-1"><!-- makes easier for us in scaling like using %,pixels etc..it does for us-->
+            <div>
+                <button class="btn btn-primary" onclick="ageInDays()">Click me</button>
+            </div>
+            <div>
+                <button class="btn btn-danger" onclick="reset()">reset</button>
+            </div>
+        </div> 
+
+        <div class="flex-box-container-1">
+            <div id="flex-box-result"></div>
+        </div>
+    </div>
+
+    <div class="container-2">
+        <h2>Challenge 2: Cat Generator</h2>
+        <button class="btn btn-success" id="cat-generaotr" onclick="generateCat()">Generate Cat</button>
+        
+
+        <div class="flex-box-container-2" id="flex-cat-gen"> 
+   
+        </div>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
